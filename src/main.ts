@@ -1,6 +1,8 @@
 import App from "./App.svelte";
 export default App;
 
+// https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js
+
 // const app = new CryptoWidget({
 //   target: document.getElementById("widget"),
 //   props: {
