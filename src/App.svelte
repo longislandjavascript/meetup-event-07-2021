@@ -64,20 +64,20 @@
   }
 </script>
 
-<div
+<article
   class="wrapper"
   style={`background-color: ${backgroundColor}; color: ${textColor}`}
 >
   {#if !values}
     <div>No data</div>
   {:else}
-    <article class={`result ${scroll ? "animation" : ""}`}>
-      {#each values as value}
+    <div class={`result ${scroll ? "animation" : ""}`}>
+      {#each values as value (value.label)}
         <p>{value.label} {formattedCurrency(value.value)}</p>
       {/each}
-    </article>
+    </div>
   {/if}
-</div>
+</article>
 
 <style>
   .wrapper {
@@ -90,7 +90,8 @@
   }
 
   .result {
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 10px;
   }
