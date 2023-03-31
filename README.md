@@ -1,36 +1,21 @@
-# crypto-ticker-widget
+[![LIJS Logo](https://raw.githubusercontent.com/longislandjavascript/longislandjavascript/main/public/logo.png)](https://www.lijs.org)
 
-Demo for July 2021 LIJS Meetup Event: **Let's build a crypto ticker widget!**
+# Meetup Event: July 2021
+### Let's build a crypto ticker widget!
 
-[https://www.meetup.com/long-island-javascript/events/hkdwdsycckblc/](https://www.meetup.com/long-island-javascript/events/hkdwdsycckblc/)
+[View Event on Meetup](https://www.meetup.com/long-island-javascript/events/hkdwdsycckblc/)
 
-## Get started
+This repo contains the resources for this event.
 
-Install the dependencies...
+![Event Graphic](event-graphic.png)
 
-```bash
-cd svelte-app
-npm install
-```
 
-...then start [Rollup](https://rollupjs.org):
+___
 
-```bash
-npm run dev
-```
+### ABOUT OUR GROUP:
 
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+Long Island JavaScript is a Meetup group in the Long Island, NY area. We meet on the last Wednesday of each month to discuss and learn about a range of topics and technologies around the JavaScript ecosystem. All skill levels are welcome. Visit our [Meetup page](https://www.meetup.com/long-island-javascript/) to join the group and RSVP for our next event.
 
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
+🔗 https://www.meetup.com/long-island-javascript/
 
-If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
-
-## Building and running in production mode
-
-To create an optimised version of the app:
-
-```bash
-npm run build
-```
-
-You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
+🔗 https://www.lijs.org
